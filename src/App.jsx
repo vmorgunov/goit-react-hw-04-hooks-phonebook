@@ -4,7 +4,7 @@ import shortid from 'shortid';
 import ContactList from 'components/ContactList';
 import Section from 'components/Section';
 import Filter from 'components/Filter';
-import useLocalStorage from 'hooks/useLocaleStorage';
+import useLocalStorage from 'hooks/useLocalStorage';
 
 export default function App() {
   const [contacts, setContacts] = useLocalStorage('contacts', [
